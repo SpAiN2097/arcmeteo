@@ -1,0 +1,3 @@
+3dea8b00cb454d2d80f5badc955aabde
+
+python coral_reef_exercise_online.py https://downloads.esri.com/LearnArcGIS/update-real-time-data-with-python/vs_polygons.json d:\tmp\Work.gdb 3dea8b00cb454d2d80f5badc955aabde d:\tmp\Coral_Reef_Watch.sd Coral_Reef_Watch

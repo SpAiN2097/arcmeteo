@@ -1,0 +1,1326 @@
+&parameter
+  name=clwmr
+  param=22.1.0
+  long_name="Cloud mixing ratio"
+  units="kg kg**-1"
+  datatype=P0
+  chunktype=grid
+/
+&parameter
+  name=icmr
+  param=23.1.0
+  long_name="Ice water mixing ratio"
+  units="kg kg**-1"
+  datatype=P0
+  chunktype=grid
+/
+&parameter
+  name=rwmr
+  param=24.1.0
+  long_name="Rain mixing ratio"
+  units="kg kg**-1"
+  datatype=P0
+  chunktype=grid
+/
+&parameter
+  name=snmr
+  param=25.1.0
+  long_name="Snow mixing ratio"
+  units="kg kg**-1"
+  datatype=P0
+  chunktype=grid
+/
+&parameter
+  name=grle
+  param=32.1.0
+  long_name="Graupel (snow pellets)"
+  units="kg kg**-1"
+  datatype=P0
+  chunktype=grid
+/
+&parameter
+  name=refc
+  param=196.16.0
+  long_name="Maximum/Composite radar reflectivity"
+  units="dB"
+  datatype=P15
+  chunktype=grid
+/
+&parameter
+  name=vis
+  param=0.19.0
+  long_name="Visibility"
+  units="m"
+  datatype=P18
+  chunktype=grid
+/
+&parameter
+  name=u
+  param=2.2.0
+  standard_name=eastward_wind
+  long_name="U component of wind"
+  units="m s**-1"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=v
+  param=3.2.0
+  standard_name=northward_wind
+  long_name="V component of wind"
+  units="m s**-1"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=VRATE
+  param=224.2.0
+  long_name="Ventilation Rate"
+  units="m**2 s**-1"
+  datatype=P7
+  chunktype=grid
+/
+&parameter
+  name=gust
+  param=22.2.0
+  long_name="Wind speed (gust)"
+  units="m s**-1"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=gh
+  param=5.3.0
+  standard_name=geopotential_height
+  long_name="Geopotential Height"
+  units="gpm"
+  datatype=P14
+  chunktype=grid
+/
+&parameter
+  name=t
+  param=0.0.0
+  standard_name=air_temperature
+  long_name="Temperature"
+  units="K"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=absv
+  param=10.2.0
+  long_name="Absolute vorticity"
+  units="s**-1"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=o3mr
+  param=192.14.0
+  long_name="Ozone mixing ratio"
+  units="kg kg**-1"
+  datatype=P16
+  chunktype=grid
+/
+&parameter
+  name=r
+  param=1.1.0
+  standard_name=relative_humidity
+  long_name="Relative humidity"
+  units="%"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=u
+  param=2.2.0
+  standard_name=eastward_wind
+  long_name="U component of wind"
+  units="m s**-1"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=v
+  param=3.2.0
+  standard_name=northward_wind
+  long_name="V component of wind"
+  units="m s**-1"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=tcc
+  param=1.6.0
+  long_name="Total Cloud Cover"
+  units="%"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=clwmr
+  param=22.1.0
+  long_name="Cloud mixing ratio"
+  units="kg kg**-1"
+  datatype=P14
+  chunktype=grid
+/
+&parameter
+  name=icmr
+  param=23.1.0
+  long_name="Ice water mixing ratio"
+  units="kg kg**-1"
+  datatype=P17
+  chunktype=grid
+/
+&parameter
+  name=rwmr
+  param=24.1.0
+  long_name="Rain mixing ratio"
+  units="kg kg**-1"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=snmr
+  param=25.1.0
+  long_name="Snow mixing ratio"
+  units="kg kg**-1"
+  datatype=P11
+  chunktype=grid
+/
+&parameter
+  name=grle
+  param=32.1.0
+  long_name="Graupel (snow pellets)"
+  units="kg kg**-1"
+  datatype=P11
+  chunktype=grid
+/
+&parameter
+  name=w
+  param=8.2.0
+  standard_name=lagrangian_tendency_of_air_pressure
+  long_name="Vertical velocity"
+  units="Pa s**-1"
+  datatype=P16
+  chunktype=grid
+/
+&parameter
+  name=wz
+  param=9.2.0
+  long_name="Geometric vertical velocity"
+  units="m s**-1"
+  datatype=P16
+  chunktype=grid
+/
+&parameter
+  name=ICSEV
+  param=234.19.0
+  long_name="Icing severity"
+  units="Numeric"
+  datatype=P11
+  chunktype=grid
+/
+&parameter
+  name=hindex
+  param=2.4.2
+  long_name="Haines Index"
+  units="Numeric"
+  datatype=P4
+  chunktype=grid
+/
+&parameter
+  name=mslet
+  param=192.3.0
+  long_name="MSLP (Eta model reduction)"
+  units="Pa"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=sp
+  param=0.3.0
+  standard_name=surface_air_pressure
+  long_name="Surface pressure"
+  units="Pa"
+  datatype=P16
+  chunktype=grid
+/
+&parameter
+  name=orog
+  param=5.3.0
+  standard_name=geopotential_height
+  long_name="Orography"
+  units="m"
+  datatype=P16
+  chunktype=grid
+/
+&parameter
+  name=t
+  param=0.0.0
+  standard_name=air_temperature
+  long_name="Temperature"
+  units="K"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=st
+  param=2.0.2
+  long_name="Soil Temperature"
+  units="K"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=soilw
+  param=192.0.2
+  long_name="Volumetric soil moisture content"
+  units="Proportion"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=sdwe
+  param=13.1.0
+  long_name="Water equivalent of accumulated snow depth"
+  units="kg m**-2"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=sde
+  param=11.1.0
+  standard_name=lwe_thickness_of_surface_snow_amount
+  long_name="Snow depth"
+  units="m"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=pevpr
+  param=200.1.0
+  long_name="Potential evaporation rate"
+  units="W m**-2"
+  datatype=P17
+  chunktype=grid
+/
+&parameter
+  name=2t
+  param=0.0.0
+  standard_name=air_temperature
+  long_name="2 metre temperature"
+  units="K"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=q
+  param=0.1.0
+  standard_name=specific_humidity
+  long_name="Specific humidity"
+  units="kg kg**-1"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=2d
+  param=6.0.0
+  long_name="2 metre dewpoint temperature"
+  units="K"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=2r
+  param=1.1.0
+  standard_name=relative_humidity
+  long_name="2 metre relative humidity"
+  units="%"
+  datatype=P11
+  chunktype=grid
+/
+&parameter
+  name=aptmp
+  param=21.0.0
+  long_name="Apparent temperature"
+  units="K"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=tmax
+  param=4.0.0
+  long_name="Maximum temperature"
+  units="K"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=tmin
+  param=5.0.0
+  long_name="Minimum temperature"
+  units="K"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=10u
+  param=2.2.0
+  standard_name=eastward_wind
+  long_name="10 metre U wind component"
+  units="m s**-1"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=10v
+  param=3.2.0
+  standard_name=northward_wind
+  long_name="10 metre V wind component"
+  units="m s**-1"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=iceg
+  param=6.2.10
+  long_name="Ice growth rate"
+  units="m s**-1"
+  datatype=P0
+  chunktype=grid
+/
+&parameter
+  name=cpofp
+  param=39.1.0
+  long_name="Percent frozen precipitation"
+  units="%"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=cprat
+  param=37.1.0
+  long_name="Convective precipitation rate"
+  units="kg m**-2 s**-1"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=prate
+  param=7.1.0
+  long_name="Precipitation rate"
+  units="kg m**-2 s**-1"
+  datatype=P0
+  chunktype=grid
+/
+&parameter
+  name=cprat
+  param=196.1.0
+  long_name="Convective precipitation rate"
+  units="kg m**-2 s**-1"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=prate
+  param=7.1.0
+  long_name="Precipitation rate"
+  units="kg m**-2 s**-1"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=tp
+  param=8.1.0
+  long_name="Total Precipitation"
+  units="kg m**-2"
+  datatype=P11
+  chunktype=grid
+/
+&parameter
+  name=acpcp
+  param=10.1.0
+  standard_name=lwe_thickness_of_convective_precipitation_amount
+  long_name="Convective precipitation (water)"
+  units="kg m**-2"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=watr
+  param=5.0.2
+  long_name="Water runoff"
+  units="kg m**-2"
+  datatype=P16
+  chunktype=grid
+/
+&parameter
+  name=csnow
+  param=195.1.0
+  long_name="Categorical snow"
+  units="(Code table 4.222)"
+  datatype=P0
+  chunktype=grid
+/
+&parameter
+  name=cicep
+  param=194.1.0
+  long_name="Categorical ice pellets"
+  units="(Code table 4.222)"
+  datatype=P0
+  chunktype=grid
+/
+&parameter
+  name=cfrzr
+  param=193.1.0
+  long_name="Categorical freezing rain"
+  units="(Code table 4.222)"
+  datatype=P0
+  chunktype=grid
+/
+&parameter
+  name=crain
+  param=192.1.0
+  long_name="Categorical rain"
+  units="(Code table 4.222)"
+  datatype=P3
+  chunktype=grid
+/
+&parameter
+  name=csnow
+  param=195.1.0
+  long_name="Categorical snow"
+  units="(Code table 4.222)"
+  datatype=P0
+  chunktype=grid
+/
+&parameter
+  name=cicep
+  param=194.1.0
+  long_name="Categorical ice pellets"
+  units="(Code table 4.222)"
+  datatype=P0
+  chunktype=grid
+/
+&parameter
+  name=cfrzr
+  param=193.1.0
+  long_name="Categorical freezing rain"
+  units="(Code table 4.222)"
+  datatype=P0
+  chunktype=grid
+/
+&parameter
+  name=crain
+  param=192.1.0
+  long_name="Categorical rain"
+  units="(Code table 4.222)"
+  datatype=P3
+  chunktype=grid
+/
+&parameter
+  name=lhtfl
+  param=10.0.0
+  long_name="Latent heat net flux"
+  units="W m**-2"
+  datatype=P14
+  chunktype=grid
+/
+&parameter
+  name=shtfl
+  param=11.0.0
+  long_name="Sensible heat net flux"
+  units="W m**-2"
+  datatype=P14
+  chunktype=grid
+/
+&parameter
+  name=gflux
+  param=193.0.2
+  long_name="Ground heat flux"
+  units="W m**-2"
+  datatype=P14
+  chunktype=grid
+/
+&parameter
+  name=uflx
+  param=17.2.0
+  long_name="Momentum flux, u component"
+  units="N m**-2"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=vflx
+  param=18.2.0
+  long_name="Momentum flux, v component"
+  units="N m**-2"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=u-gwd
+  param=194.3.0
+  long_name="Zonal flux of gravity wave stress"
+  units="N m**-2"
+  datatype=P16
+  chunktype=grid
+/
+&parameter
+  name=v-gwd
+  param=195.3.0
+  long_name="Meridional flux of gravity wave stress"
+  units="N m**-2"
+  datatype=P15
+  chunktype=grid
+/
+&parameter
+  name=wilt
+  param=201.0.2
+  long_name="Wilting Point"
+  units="Fraction"
+  datatype=P14
+  chunktype=grid
+/
+&parameter
+  name=fldcp
+  param=203.3.2
+  long_name="Field Capacity"
+  units="Fraction"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=SUNSD
+  param=201.6.0
+  long_name="Sunshine Duration"
+  units="s"
+  datatype=P15
+  chunktype=grid
+/
+&parameter
+  name=lftx
+  param=192.7.0
+  long_name="Surface lifted index"
+  units="K"
+  datatype=P8
+  chunktype=grid
+/
+&parameter
+  name=cape
+  param=6.7.0
+  long_name="Convective available potential energy"
+  units="J kg**-1"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=cin
+  param=7.7.0
+  long_name="Convective inhibition"
+  units="J kg**-1"
+  datatype=P15
+  chunktype=grid
+/
+&parameter
+  name=pwat
+  param=3.1.0
+  long_name="Precipitable water"
+  units="kg m**-2"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=cwat
+  param=6.6.0
+  long_name="Cloud water"
+  units="kg m**-2"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=r
+  param=1.1.0
+  standard_name=relative_humidity
+  long_name="Relative humidity"
+  units="%"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=tozne
+  param=0.14.0
+  long_name="Total ozone"
+  units="DU"
+  datatype=P8
+  chunktype=grid
+/
+&parameter
+  name=tcc
+  param=1.6.0
+  long_name="Total Cloud Cover"
+  units="%"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=tcc
+  param=1.6.0
+  long_name="Total Cloud Cover"
+  units="%"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=tcc
+  param=1.6.0
+  long_name="Total Cloud Cover"
+  units="%"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=tcc
+  param=1.6.0
+  long_name="Total Cloud Cover"
+  units="%"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=pres
+  param=0.3.0
+  long_name="Pressure"
+  units="Pa"
+  datatype=P17
+  chunktype=grid
+/
+&parameter
+  name=pres
+  param=0.3.0
+  long_name="Pressure"
+  units="Pa"
+  datatype=P18
+  chunktype=grid
+/
+&parameter
+  name=pres
+  param=0.3.0
+  long_name="Pressure"
+  units="Pa"
+  datatype=P17
+  chunktype=grid
+/
+&parameter
+  name=pres
+  param=0.3.0
+  long_name="Pressure"
+  units="Pa"
+  datatype=P18
+  chunktype=grid
+/
+&parameter
+  name=pres
+  param=0.3.0
+  long_name="Pressure"
+  units="Pa"
+  datatype=P18
+  chunktype=grid
+/
+&parameter
+  name=pres
+  param=0.3.0
+  long_name="Pressure"
+  units="Pa"
+  datatype=P18
+  chunktype=grid
+/
+&parameter
+  name=pres
+  param=0.3.0
+  long_name="Pressure"
+  units="Pa"
+  datatype=P17
+  chunktype=grid
+/
+&parameter
+  name=pres
+  param=0.3.0
+  long_name="Pressure"
+  units="Pa"
+  datatype=P18
+  chunktype=grid
+/
+&parameter
+  name=t
+  param=0.0.0
+  standard_name=air_temperature
+  long_name="Temperature"
+  units="K"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=t
+  param=0.0.0
+  standard_name=air_temperature
+  long_name="Temperature"
+  units="K"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=t
+  param=0.0.0
+  standard_name=air_temperature
+  long_name="Temperature"
+  units="K"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=tcc
+  param=1.6.0
+  long_name="Total Cloud Cover"
+  units="%"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=tcc
+  param=1.6.0
+  long_name="Total Cloud Cover"
+  units="%"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=cwork
+  param=193.6.0
+  long_name="Cloud work function"
+  units="J kg**-1"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=dswrf
+  param=192.4.0
+  long_name="Downward short-wave radiation flux"
+  units="W m**-2"
+  datatype=P8
+  chunktype=grid
+/
+&parameter
+  name=dlwrf
+  param=192.5.0
+  long_name="Downward long-wave radiation flux"
+  units="W m**-2"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=uswrf
+  param=193.4.0
+  long_name="Upward short-wave radiation flux"
+  units="W m**-2"
+  datatype=P11
+  chunktype=grid
+/
+&parameter
+  name=ulwrf
+  param=193.5.0
+  long_name="Upward long-wave radiation flux"
+  units="W m**-2"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=uswrf
+  param=193.4.0
+  long_name="Upward short-wave radiation flux"
+  units="W m**-2"
+  datatype=P11
+  chunktype=grid
+/
+&parameter
+  name=ulwrf
+  param=193.5.0
+  long_name="Upward long-wave radiation flux"
+  units="W m**-2"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=hlcy
+  param=8.7.0
+  long_name="Storm relative helicity"
+  units="J kg**-1"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=ustm
+  param=194.2.0
+  long_name="U-component storm motion"
+  units="m s**-1"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=vstm
+  param=195.2.0
+  long_name="V-component storm motion"
+  units="m s**-1"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=pres
+  param=0.3.0
+  long_name="Pressure"
+  units="Pa"
+  datatype=P17
+  chunktype=grid
+/
+&parameter
+  name=icaht
+  param=3.3.0
+  long_name="ICAO Standard Atmosphere reference height"
+  units="m"
+  datatype=P17
+  chunktype=grid
+/
+&parameter
+  name=gh
+  param=5.3.0
+  standard_name=geopotential_height
+  long_name="Geopotential Height"
+  units="gpm"
+  datatype=P16
+  chunktype=grid
+/
+&parameter
+  name=t
+  param=0.0.0
+  standard_name=air_temperature
+  long_name="Temperature"
+  units="K"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=u
+  param=2.2.0
+  standard_name=eastward_wind
+  long_name="U component of wind"
+  units="m s**-1"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=v
+  param=3.2.0
+  standard_name=northward_wind
+  long_name="V component of wind"
+  units="m s**-1"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=vwsh
+  param=192.2.0
+  long_name="Vertical speed shear"
+  units="s**-1"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=pres
+  param=0.3.0
+  long_name="Pressure"
+  units="Pa"
+  datatype=P18
+  chunktype=grid
+/
+&parameter
+  name=icaht
+  param=3.3.0
+  long_name="ICAO Standard Atmosphere reference height"
+  units="m"
+  datatype=P18
+  chunktype=grid
+/
+&parameter
+  name=gh
+  param=5.3.0
+  standard_name=geopotential_height
+  long_name="Geopotential Height"
+  units="gpm"
+  datatype=P18
+  chunktype=grid
+/
+&parameter
+  name=u
+  param=2.2.0
+  standard_name=eastward_wind
+  long_name="U component of wind"
+  units="m s**-1"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=v
+  param=3.2.0
+  standard_name=northward_wind
+  long_name="V component of wind"
+  units="m s**-1"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=t
+  param=0.0.0
+  standard_name=air_temperature
+  long_name="Temperature"
+  units="K"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=u
+  param=2.2.0
+  standard_name=eastward_wind
+  long_name="U component of wind"
+  units="m s**-1"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=v
+  param=3.2.0
+  standard_name=northward_wind
+  long_name="V component of wind"
+  units="m s**-1"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=t
+  param=0.0.0
+  standard_name=air_temperature
+  long_name="Temperature"
+  units="K"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=pres
+  param=0.3.0
+  long_name="Pressure"
+  units="Pa"
+  datatype=P16
+  chunktype=grid
+/
+&parameter
+  name=t
+  param=0.0.0
+  standard_name=air_temperature
+  long_name="Temperature"
+  units="K"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=u
+  param=2.2.0
+  standard_name=eastward_wind
+  long_name="U component of wind"
+  units="m s**-1"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=v
+  param=3.2.0
+  standard_name=northward_wind
+  long_name="V component of wind"
+  units="m s**-1"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=gh
+  param=5.3.0
+  standard_name=geopotential_height
+  long_name="Geopotential Height"
+  units="gpm"
+  datatype=P15
+  chunktype=grid
+/
+&parameter
+  name=r
+  param=1.1.0
+  standard_name=relative_humidity
+  long_name="Relative humidity"
+  units="%"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=gh
+  param=5.3.0
+  standard_name=geopotential_height
+  long_name="Geopotential Height"
+  units="gpm"
+  datatype=P15
+  chunktype=grid
+/
+&parameter
+  name=r
+  param=1.1.0
+  standard_name=relative_humidity
+  long_name="Relative humidity"
+  units="%"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=t
+  param=0.0.0
+  standard_name=air_temperature
+  long_name="Temperature"
+  units="K"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=r
+  param=1.1.0
+  standard_name=relative_humidity
+  long_name="Relative humidity"
+  units="%"
+  datatype=P11
+  chunktype=grid
+/
+&parameter
+  name=q
+  param=0.1.0
+  standard_name=specific_humidity
+  long_name="Specific humidity"
+  units="kg kg**-1"
+  datatype=P15
+  chunktype=grid
+/
+&parameter
+  name=u
+  param=2.2.0
+  standard_name=eastward_wind
+  long_name="U component of wind"
+  units="m s**-1"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=v
+  param=3.2.0
+  standard_name=northward_wind
+  long_name="V component of wind"
+  units="m s**-1"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=4lftx
+  param=193.7.0
+  long_name="Best (4-layer) lifted index"
+  units="K"
+  datatype=P8
+  chunktype=grid
+/
+&parameter
+  name=cape
+  param=6.7.0
+  long_name="Convective available potential energy"
+  units="J kg**-1"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=cin
+  param=7.7.0
+  long_name="Convective inhibition"
+  units="J kg**-1"
+  datatype=P15
+  chunktype=grid
+/
+&parameter
+  name=hpbl
+  param=196.3.0
+  long_name="Planetary boundary layer height"
+  units="m"
+  datatype=P17
+  chunktype=grid
+/
+&parameter
+  name=r
+  param=1.1.0
+  standard_name=relative_humidity
+  long_name="Relative humidity"
+  units="%"
+  datatype=P11
+  chunktype=grid
+/
+&parameter
+  name=t
+  param=0.0.0
+  standard_name=air_temperature
+  long_name="Temperature"
+  units="K"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=pt
+  param=2.0.0
+  long_name="Potential temperature"
+  units="K"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=u
+  param=2.2.0
+  standard_name=eastward_wind
+  long_name="U component of wind"
+  units="m s**-1"
+  datatype=P13
+  chunktype=grid
+/
+&parameter
+  name=v
+  param=3.2.0
+  standard_name=northward_wind
+  long_name="V component of wind"
+  units="m s**-1"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=w
+  param=8.2.0
+  standard_name=lagrangian_tendency_of_air_pressure
+  long_name="Vertical velocity"
+  units="Pa s**-1"
+  datatype=P15
+  chunktype=grid
+/
+&parameter
+  name=plpl
+  param=200.3.0
+  long_name="Pressure of level from which parcel was lifted"
+  units="Pa"
+  datatype=P17
+  chunktype=grid
+/
+&parameter
+  name=lsm
+  param=0.0.2
+  standard_name=land_binary_mask
+  long_name="Land-sea mask"
+  units="(0 - 1)"
+  datatype=P3
+  chunktype=grid
+/
+&parameter
+  name=ci
+  param=0.2.10
+  long_name="Sea-ice cover"
+  units="(0 - 1)"
+  datatype=P0
+  chunktype=grid
+/
+&parameter
+  name=al
+  param=1.19.0
+  long_name="Albedo"
+  units="%"
+  datatype=P15
+  chunktype=grid
+/
+&parameter
+  name=u
+  param=2.2.0
+  standard_name=eastward_wind
+  long_name="U component of wind"
+  units="m s**-1"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=v
+  param=3.2.0
+  standard_name=northward_wind
+  long_name="V component of wind"
+  units="m s**-1"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=t
+  param=0.0.0
+  standard_name=air_temperature
+  long_name="Temperature"
+  units="K"
+  datatype=P12
+  chunktype=grid
+/
+&parameter
+  name=gh
+  param=5.3.0
+  standard_name=geopotential_height
+  long_name="Geopotential Height"
+  units="gpm"
+  datatype=P18
+  chunktype=grid
+/
+&parameter
+  name=pres
+  param=0.3.0
+  long_name="Pressure"
+  units="Pa"
+  datatype=P18
+  chunktype=grid
+/
+&parameter
+  name=vwsh
+  param=192.2.0
+  long_name="Vertical speed shear"
+  units="s**-1"
+  datatype=P11
+  chunktype=grid
+/
+&parameter
+  name=prmsl
+  param=1.3.0
+  long_name="Pressure reduced to MSL"
+  units="Pa"
+  datatype=P10
+  chunktype=grid
+/
+&parameter
+  name=5wavh
+  param=193.3.0
+  long_name="5-wave geopotential height"
+  units="gpm"
+  datatype=P9
+  chunktype=grid
+/
+&parameter
+  name=landn
+  param=218.0.2
+  long_name="Land-sea coverage (nearest neighbor) [land=1,sea=0]"
+  datatype=P3
+  chunktype=grid
+/

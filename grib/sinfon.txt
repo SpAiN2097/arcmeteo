@@ -1,0 +1,275 @@
+   File format : GRIB2
+    -1 : Institut Source   T Steptype Levels Num    Points Num Dtype : Parameter name
+     1 : NCEP     unknown  v instant       1   1      2257   1  P0   : clwmr         
+     2 : NCEP     unknown  v instant       1   1      2257   1  P0   : icmr          
+     3 : NCEP     unknown  v instant       1   1      2257   1  P0   : rwmr          
+     4 : NCEP     unknown  v instant       1   1      2257   1  P0   : snmr          
+     5 : NCEP     unknown  v instant       1   1      2257   1  P0   : grle          
+     6 : NCEP     unknown  v instant       1   2      2257   1  P15  : refc          
+     7 : NCEP     unknown  v instant       1   3      2257   1  P18  : vis           
+     8 : NCEP     unknown  v instant       1   4      2257   1  P10  : u             
+     9 : NCEP     unknown  v instant       1   4      2257   1  P9   : v             
+    10 : NCEP     unknown  v instant       1   4      2257   1  P7   : VRATE         
+    11 : NCEP     unknown  v instant       1   3      2257   1  P10  : gust          
+    12 : NCEP     unknown  v instant      34   5      2257   1  P14  : gh            
+    13 : NCEP     unknown  v instant      34   5      2257   1  P9   : t             
+    14 : NCEP     unknown  v instant      29   6      2257   1  P13  : absv          
+    15 : NCEP     unknown  v instant      24   7      2257   1  P16  : o3mr          
+    16 : NCEP     unknown  v instant      31   8      2257   1  P12  : r             
+    17 : NCEP     unknown  v instant      31   8      2257   1  P13  : u             
+    18 : NCEP     unknown  v instant      31   8      2257   1  P13  : v             
+    19 : NCEP     unknown  v instant      22   9      2257   1  P9   : tcc           
+    20 : NCEP     unknown  v instant      22   9      2257   1  P14  : clwmr         
+    21 : NCEP     unknown  v instant      22   9      2257   1  P17  : icmr          
+    22 : NCEP     unknown  v instant      22   9      2257   1  P10  : rwmr          
+    23 : NCEP     unknown  v instant      22   9      2257   1  P11  : snmr          
+    24 : NCEP     unknown  v instant      22   9      2257   1  P11  : grle          
+    25 : NCEP     unknown  v instant      21  10      2257   1  P16  : w             
+    26 : NCEP     unknown  v instant      21  10      2257   1  P16  : wz            
+    27 : NCEP     unknown  v instant      19  11      2257   1  P11  : ICSEV         
+    28 : NCEP     unknown  v instant       1   3      2257   1  P4   : hindex        
+    29 : NCEP     unknown  v instant       1  12      2257   1  P13  : mslet         
+    30 : NCEP     unknown  v instant       1   3      2257   1  P16  : sp            
+    31 : NCEP     unknown  v instant       1   3      2257   1  P16  : orog          
+    32 : NCEP     unknown  v instant       1   3      2257   1  P10  : t             
+    33 : NCEP     unknown  v instant       4  13      2257   1  P13  : st            
+    34 : NCEP     unknown  v instant       4  13      2257   1  P12  : soilw         
+    35 : NCEP     unknown  v instant       1   3      2257   1  P10  : sdwe          
+    36 : NCEP     unknown  v instant       1   3      2257   1  P10  : sde           
+    37 : NCEP     unknown  v instant       1   3      2257   1  P17  : pevpr         
+    38 : NCEP     unknown  v instant       1  14      2257   1  P12  : 2t            
+    39 : NCEP     unknown  v instant       2  15      2257   1  P12  : q             
+    40 : NCEP     unknown  v instant       1  14      2257   1  P13  : 2d            
+    41 : NCEP     unknown  v instant       1  14      2257   1  P11  : 2r            
+    42 : NCEP     unknown  v instant       1  14      2257   1  P9   : aptmp         
+    43 : NCEP     unknown  v max           1  14      2257   1  P9   : tmax          
+    44 : NCEP     unknown  v min           1  14      2257   1  P12  : tmin          
+    45 : NCEP     unknown  v instant       1  16      2257   1  P13  : 10u           
+    46 : NCEP     unknown  v instant       1  16      2257   1  P13  : 10v           
+    47 : NCEP     unknown  v instant       1  17      2257   1  P0   : iceg          
+    48 : NCEP     unknown  v instant       1   3      2257   1  P13  : cpofp         
+    49 : NCEP     unknown  v instant       1   3      2257   1  P13  : cprat         
+    50 : NCEP     unknown  v instant       1   3      2257   1  P0   : prate         
+    51 : NCEP     unknown  v avg           1   3      2257   1  P12  : cprat         
+    52 : NCEP     unknown  v avg           1   3      2257   1  P10  : prate         
+    53 : NCEP     unknown  v accum         1   3      2257   1  P11  : tp            
+    54 : NCEP     unknown  v accum         1   3      2257   1  P9   : acpcp         
+    55 : NCEP     unknown  v accum         1   3      2257   1  P16  : watr          
+    56 : NCEP     unknown  v instant       1   3      2257   1  P0   : csnow         
+    57 : NCEP     unknown  v instant       1   3      2257   1  P0   : cicep         
+    58 : NCEP     unknown  v instant       1   3      2257   1  P0   : cfrzr         
+    59 : NCEP     unknown  v instant       1   3      2257   1  P3   : crain         
+    60 : NCEP     unknown  v avg           1   3      2257   1  P0   : csnow         
+    61 : NCEP     unknown  v avg           1   3      2257   1  P0   : cicep         
+    62 : NCEP     unknown  v avg           1   3      2257   1  P0   : cfrzr         
+    63 : NCEP     unknown  v avg           1   3      2257   1  P3   : crain         
+    64 : NCEP     unknown  v avg           1   3      2257   1  P14  : lhtfl         
+    65 : NCEP     unknown  v avg           1   3      2257   1  P14  : shtfl         
+    66 : NCEP     unknown  v avg           1   3      2257   1  P14  : gflux         
+    67 : NCEP     unknown  v avg           1   3      2257   1  P12  : uflx          
+    68 : NCEP     unknown  v avg           1   3      2257   1  P12  : vflx          
+    69 : NCEP     unknown  v avg           1   3      2257   1  P16  : u-gwd         
+    70 : NCEP     unknown  v avg           1   3      2257   1  P15  : v-gwd         
+    71 : NCEP     unknown  v instant       1   3      2257   1  P14  : wilt          
+    72 : NCEP     unknown  v instant       1   3      2257   1  P13  : fldcp         
+    73 : NCEP     unknown  v instant       1   3      2257   1  P15  : SUNSD         
+    74 : NCEP     unknown  v instant       1   3      2257   1  P8   : lftx          
+    75 : NCEP     unknown  v instant       1   3      2257   1  P13  : cape          
+    76 : NCEP     unknown  v instant       1   3      2257   1  P15  : cin           
+    77 : NCEP     unknown  v instant       1  18      2257   1  P10  : pwat          
+    78 : NCEP     unknown  v instant       1  18      2257   1  P10  : cwat          
+    79 : NCEP     unknown  v instant       1  18      2257   1  P10  : r             
+    80 : NCEP     unknown  v instant       1  18      2257   1  P8   : tozne         
+    81 : NCEP     unknown  v avg           1  19      2257   1  P9   : tcc           
+    82 : NCEP     unknown  v avg           1  20      2257   1  P9   : tcc           
+    83 : NCEP     unknown  v avg           1  21      2257   1  P9   : tcc           
+    84 : NCEP     unknown  v avg           1   2      2257   1  P9   : tcc           
+    85 : NCEP     unknown  v instant       1  22      2257   1  P17  : pres          
+    86 : NCEP     unknown  v avg           1  23      2257   1  P18  : pres          
+    87 : NCEP     unknown  v avg           1  24      2257   1  P17  : pres          
+    88 : NCEP     unknown  v avg           1  25      2257   1  P18  : pres          
+    89 : NCEP     unknown  v instant       1  26      2257   1  P18  : pres          
+    90 : NCEP     unknown  v avg           1  27      2257   1  P18  : pres          
+    91 : NCEP     unknown  v avg           1  28      2257   1  P17  : pres          
+    92 : NCEP     unknown  v avg           1  29      2257   1  P18  : pres          
+    93 : NCEP     unknown  v avg           1  27      2257   1  P10  : t             
+    94 : NCEP     unknown  v avg           1  28      2257   1  P10  : t             
+    95 : NCEP     unknown  v avg           1  29      2257   1  P12  : t             
+    96 : NCEP     unknown  v instant       1  30      2257   1  P9   : tcc           
+    97 : NCEP     unknown  v avg           1  31      2257   1  P9   : tcc           
+    98 : NCEP     unknown  v avg           1  18      2257   1  P12  : cwork         
+    99 : NCEP     unknown  v avg           1   3      2257   1  P8   : dswrf         
+   100 : NCEP     unknown  v avg           1   3      2257   1  P9   : dlwrf         
+   101 : NCEP     unknown  v avg           1   3      2257   1  P11  : uswrf         
+   102 : NCEP     unknown  v avg           1   3      2257   1  P10  : ulwrf         
+   103 : NCEP     unknown  v avg           1  32      2257   1  P11  : uswrf         
+   104 : NCEP     unknown  v avg           1  32      2257   1  P9   : ulwrf         
+   105 : NCEP     unknown  v instant       1  33      2257   1  P10  : hlcy          
+   106 : NCEP     unknown  v instant       1  34      2257   1  P13  : ustm          
+   107 : NCEP     unknown  v instant       1  34      2257   1  P13  : vstm          
+   108 : NCEP     unknown  v instant       1  35      2257   1  P17  : pres          
+   109 : NCEP     unknown  v instant       1  35      2257   1  P17  : icaht         
+   110 : NCEP     unknown  v instant       1  35      2257   1  P16  : gh            
+   111 : NCEP     unknown  v instant       1  35      2257   1  P9   : t             
+   112 : NCEP     unknown  v instant       1  35      2257   1  P10  : u             
+   113 : NCEP     unknown  v instant       1  35      2257   1  P10  : v             
+   114 : NCEP     unknown  v instant       1  35      2257   1  P10  : vwsh          
+   115 : NCEP     unknown  v instant       1  36      2257   1  P18  : pres          
+   116 : NCEP     unknown  v instant       1  36      2257   1  P18  : icaht         
+   117 : NCEP     unknown  v instant       1  36      2257   1  P18  : gh            
+   118 : NCEP     unknown  v instant       1  36      2257   1  P10  : u             
+   119 : NCEP     unknown  v instant       1  36      2257   1  P10  : v             
+   120 : NCEP     unknown  v instant       1  36      2257   1  P12  : t             
+   121 : NCEP     unknown  v instant       6  37      2257   1  P13  : u             
+   122 : NCEP     unknown  v instant       6  37      2257   1  P13  : v             
+   123 : NCEP     unknown  v instant       2  38      2257   1  P9   : t             
+   124 : NCEP     unknown  v instant       1  39      2257   1  P16  : pres          
+   125 : NCEP     unknown  v instant       3  40      2257   1  P9   : t             
+   126 : NCEP     unknown  v instant       3  40      2257   1  P13  : u             
+   127 : NCEP     unknown  v instant       3  40      2257   1  P13  : v             
+   128 : NCEP     unknown  v instant       1  41      2257   1  P15  : gh            
+   129 : NCEP     unknown  v instant       1  41      2257   1  P12  : r             
+   130 : NCEP     unknown  v instant       1  42      2257   1  P15  : gh            
+   131 : NCEP     unknown  v instant       1  42      2257   1  P12  : r             
+   132 : NCEP     unknown  v instant       1  43      2257   1  P9   : t             
+   133 : NCEP     unknown  v instant       1  43      2257   1  P11  : r             
+   134 : NCEP     unknown  v instant       1  43      2257   1  P15  : q             
+   135 : NCEP     unknown  v instant       1  43      2257   1  P13  : u             
+   136 : NCEP     unknown  v instant       1  43      2257   1  P13  : v             
+   137 : NCEP     unknown  v instant       1   3      2257   1  P8   : 4lftx         
+   138 : NCEP     unknown  v instant       2  44      2257   1  P13  : cape          
+   139 : NCEP     unknown  v instant       2  44      2257   1  P15  : cin           
+   140 : NCEP     unknown  v instant       1   3      2257   1  P17  : hpbl          
+   141 : NCEP     unknown  v instant       5  45      2257   1  P11  : r             
+   142 : NCEP     unknown  v instant       1  46      2257   1  P12  : t             
+   143 : NCEP     unknown  v instant       1  46      2257   1  P12  : pt            
+   144 : NCEP     unknown  v instant       1  46      2257   1  P13  : u             
+   145 : NCEP     unknown  v instant       1  46      2257   1  P12  : v             
+   146 : NCEP     unknown  v instant       1  46      2257   1  P15  : w             
+   147 : NCEP     unknown  v instant       1  47      2257   1  P17  : plpl          
+   148 : NCEP     unknown  v instant       1   3      2257   1  P3   : lsm           
+   149 : NCEP     unknown  v instant       1   3      2257   1  P0   : ci            
+   150 : NCEP     unknown  v avg           1   3      2257   1  P15  : al            
+   151 : NCEP     unknown  v instant       2  48      2257   1  P12  : u             
+   152 : NCEP     unknown  v instant       2  48      2257   1  P12  : v             
+   153 : NCEP     unknown  v instant       2  48      2257   1  P12  : t             
+   154 : NCEP     unknown  v instant       2  48      2257   1  P18  : gh            
+   155 : NCEP     unknown  v instant       2  48      2257   1  P18  : pres          
+   156 : NCEP     unknown  v instant       2  48      2257   1  P11  : vwsh          
+   157 : NCEP     unknown  v instant       1  12      2257   1  P10  : prmsl         
+   158 : NCEP     unknown  v instant       1  49      2257   1  P9   : 5wavh         
+   159 : NCEP     unknown  v instant       1   3      2257   1  P3   : landn         
+   Grid coordinates :
+     1 : lonlat                   : points=2257 (61x37)
+                              lon : 350 to 365 by 0.25 degrees_east
+                              lat : 44 to 35 by 0.25 degrees_north
+   Vertical coordinates :
+     1 : hybrid                   : levels=1
+                              lev : 1 
+     2 : atmosphere               : levels=1
+                       atmosphere : 0 
+     3 : surface                  : levels=1
+     4 : generic      (ltype=220) : levels=1
+                              lev : 0 
+     5 : pressure                 : levels=34
+                             plev : 40 to 100000 Pa
+     6 : pressure                 : levels=29
+                             plev : 40 to 100000 Pa
+     7 : pressure                 : levels=24
+                             plev : 40 to 100000 Pa
+     8 : pressure                 : levels=31
+                             plev : 100 to 100000 Pa
+     9 : pressure                 : levels=22
+                             plev : 5000 to 100000 Pa
+    10 : pressure                 : levels=21
+                             plev : 10000 to 100000 Pa
+    11 : pressure                 : levels=19
+                             plev : 10000 to 100000 by 5000 Pa
+    12 : meansea                  : levels=1
+                              lev : 0 
+    13 : depth_below_land         : levels=4
+                            depth : 0.05 to 1.5 m
+                           bounds : 0-0.1 to 1-2 m
+    14 : height                   : levels=1
+                           height : 2 
+    15 : height                   : levels=2
+                           height : 2 to 80 
+    16 : height                   : levels=1
+                           height : 10 
+    17 : altitude                 : levels=1
+                              alt : 10 
+    18 : generic      (ltype=200) : levels=1
+                              lev : 0 
+    19 : generic      (ltype=214) : levels=1
+                              lev : 0 
+    20 : generic      (ltype=224) : levels=1
+                              lev : 0 
+    21 : generic      (ltype=234) : levels=1
+                              lev : 0 
+    22 : generic      (ltype=242) : levels=1
+                              lev : 0 
+    23 : generic      (ltype=212) : levels=1
+                              lev : 0 
+    24 : generic      (ltype=222) : levels=1
+                              lev : 0 
+    25 : generic      (ltype=232) : levels=1
+                              lev : 0 
+    26 : generic      (ltype=243) : levels=1
+                              lev : 0 
+    27 : generic      (ltype=213) : levels=1
+                              lev : 0 
+    28 : generic      (ltype=223) : levels=1
+                              lev : 0 
+    29 : generic      (ltype=233) : levels=1
+                              lev : 0 
+    30 : generic      (ltype=244) : levels=1
+                              lev : 0 
+    31 : generic      (ltype=211) : levels=1
+                              lev : 0 
+    32 : top_of_atmosphere        : levels=1
+                              toa : 0 
+    33 : height                   : levels=1
+                           height : 1500 
+                           bounds : 3000-0 
+    34 : height                   : levels=1
+                           height : 3000 
+                           bounds : 6000-0 
+    35 : generic      (ltype=  7) : levels=1
+                              lev : 0 
+    36 : generic      (ltype=  6) : levels=1
+                              lev : 0 
+    37 : height                   : levels=6
+                           height : 20 to 100 
+    38 : height                   : levels=2
+                           height : 80 to 100 
+    39 : height                   : levels=1
+                           height : 80 
+    40 : altitude                 : levels=3
+                              alt : 1829 to 3658 by 914.5 
+    41 : isotherm_zero            : levels=1
+                        isotherm0 : 0 
+    42 : generic      (ltype=204) : levels=1
+                              lev : 0 
+    43 : generic      (ltype=108) : levels=1
+                              lev : 1500 
+                           bounds : 3000-0 
+    44 : generic      (ltype=108) : levels=2
+                              lev : 9000 to 12750 
+                           bounds : 18000-0 to 25500-0 
+    45 : sigma                    : levels=5
+                              lev : 0.665 to 0.4975 
+                           bounds : 0.33-1 to 0.995-0 
+    46 : sigma                    : levels=1
+                              lev : 0.995 
+    47 : generic      (ltype=108) : levels=1
+                              lev : 12750 
+                           bounds : 25500-0 
+    48 : generic      (ltype=109) : levels=2
+                              lev : 0 to 2 
+    49 : pressure                 : levels=1
+                             plev : 50000 Pa
+   Time coordinate :  unlimited steps
+     RefTime =  2020-05-04 00:00:00  Units = hours  Calendar = proleptic_gregorian
+  YYYY-MM-DD hh:mm:ss  YYYY-MM-DD hh:mm:ss  YYYY-MM-DD hh:mm:ss  YYYY-MM-DD hh:mm:ss
+  2020-05-04 09:00:00  2020-05-04 12:00:00  2020-05-04 15:00:00  2020-05-04 18:00:00
+  2020-05-04 21:00:00  2020-05-05 00:00:00  2020-05-05 03:00:00  2020-05-05 06:00:00
