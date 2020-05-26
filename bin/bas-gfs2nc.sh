@@ -46,6 +46,7 @@ for (( t=$tini; t<=$tend; t=t+3 )); do
 	#-- Iberia box (-10,35) --> (5,44)  
 	[ $ofile == "iberia" ] && cdo sellonlatbox,-10,5,35,44 tmp01.gfs tmp02.gfs
 	[ $ofile == "canarias" ] && cdo sellonlatbox,-18.8,-12.6,26.8,29.8 tmp01.gfs tmp02.gfs
+	[ $ofile == "colombia" ] && cdo sellonlatbox,-79.2,-66.6,-4.4,12.6 tmp01.gfs tmp02.gfs
 	cat tmp02.gfs >> all.gfs
 	rm tmp01.gfs tmp02.gfs
 done

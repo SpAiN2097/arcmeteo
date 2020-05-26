@@ -36,7 +36,8 @@ arcpy.gp.logHistory = True
 arcpy.env.outputCoordinateSystem = arcpy.SpatialReference ("WGS 1984 Web Mercator (auxiliary sphere)")
 arcpy.env.overwriteOutput = True
 arcpy.env.parallelProcessingFactor = "100%"
-arcpy.env.cellSize = 1000
+arcpy.env.cellSize = "MINOF"
+arcpy.env.cellSize = 500
 arcpy.env.resamplingMethod = "BILINEAR"
 tblStat = baseDir + "/"+ FGDB+r"\tblStat"
 
